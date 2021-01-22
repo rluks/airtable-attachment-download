@@ -1,8 +1,19 @@
 # airtable-attachment-download
+Simple Python 3 script to download attachments from Airtable
 
-Simple Python 3 script to grab attachments from Airtable
+Your CSV:
+Name | attachment
+-----|-----
+Bob | 4as3fd523sf.jpg
+John | screenclip.png
 
-Usage:
+Script downloads these files:
+- Bob.jpg
+- John.png
+
+# Usage
+
+The name in the first column is used as a name for corresponding attachment. File type of attachment is preserved. The names in the first column should to be unique otherwise they will get overwritten if it’s the same file type.
 
 Download CSV from Airtable
 https://support.airtable.com/hc/en-us/articles/202624339-Exporting-Records-in-a-View-to-CSV
@@ -15,4 +26,6 @@ Set the input file in aad.py
 
 Run the aad.py
 
+# Notes
 
+Feel free to fork and make changes
