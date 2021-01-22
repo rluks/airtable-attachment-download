@@ -21,10 +21,14 @@ https://support.airtable.com/hc/en-us/articles/202624339-Exporting-Records-in-a-
 Get Python 3
 https://www.python.org/downloads/
 
+Get the script
+https://github.com/rluks/airtable-attachment-download/releases
+
 Set the input file in aad.py
 `filename = '<your csv>.csv'`
 
 Run the aad.py
+https://pythonprogramminglanguage.com/how-to-run/
 
 # Notes
 
