@@ -13,7 +13,7 @@ Script downloads these files:
 
 # Usage
 
-The name in the first column is used as a name for corresponding attachment. Attachment is expected to be in the second column. File type of attachment is preserved. The names in the first column should to be unique otherwise they will get overwritten if it’s the same file type.
+The name in the first column is used as a name for corresponding attachment. Attachment is expected to be in the second column. File type of attachment is preserved. The names in the first column should to be unique otherwise attachment(s) will get overwritten if they share the same file type.
 
 Download CSV from Airtable
 https://support.airtable.com/hc/en-us/articles/202624339-Exporting-Records-in-a-View-to-CSV
